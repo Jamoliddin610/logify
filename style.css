@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #ECBC76 0%, #ECBC76 50%,#fff 50%,#fff 100%);
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 60px ;
+    
+    
+}
+
+.contact{
+    width: 540px;
+    height: 740px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    margin: 0 auto;
+    padding: 55px 45px;
+    position: relative;
+}
+.girl-phone{
+  position: relative;
+  left: 480px;
+  bottom: 680px;
+  
+}
+.girl-with-scooter{
+    position: relative;
+    
+    bottom: 830px;
+    border-bottom: solid 1px black;
+}
+.contact-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+}
+.head-text{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+span{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8D8D;
+}
+.sign-up{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B87514;
+    text-decoration: none;
+}
+.contact-h2{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 82px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+input{
+    padding: 20px 0 20px 25px;
+    background: #FFFFFF;
+    border: 1px solid #4285F4;
+    border-radius: 9px;
+    margin-top: 14px;
+}
+.pass{
+    border: 1px solid #ADADAD;
+    margin-bottom: 20px;
+}
+.eye{
+    position: absolute;
+    width: 22px;
+    height: 19px;
+    left: 455px;
+    top: 393px;
+
+}
+.forgot{
+    position: absolute;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #AD3113;
+    text-decoration: none;
+    left: 386px;
+    top: 464px;
+}
+.btn-submit{
+    background: #E48700;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 33px;
+    cursor: pointer;
+}
+.or{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ababab;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.apps{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    width: 216px;
+    border: 1px solid #ADADAD;
+    padding: 20px 0 16px 13px;
+}
+.nubers-box{
+    display: flex;
+    justify-content: space-between;
+    
+}
